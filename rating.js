@@ -21,7 +21,6 @@ rating.create = function(settings){
 
     //Set the classes
     var ratingClass = settings.ratingClass || {};
-    console.log(ratingClass);
 
     var html = '<input type="hidden" name="'+this.name+'" value="'+this.defaultRating+'">';
     //Create the ratings HTML
