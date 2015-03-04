@@ -50,3 +50,19 @@ Optional
 `name` - The name of the input field that you want to be passed to your form handler. Default: `rating`
 
 `ratingClass` - Array of classes that you want to be added to each rating "star". Default: `null`
+
+Using Font Awesome
+---
+You can use font awesome icons by adding the same class that you would add in an `i` tag as the `selectedIcon` and `unselectedIcon`. Note - if you use font awesome for one of the icons, you have to use it for both icons. Also, if you use font awesome, you cannot use the `ratingClass` attribute, instead you should add your classes onto the icon definition, see below.
+
+Example:
+
+```javascript
+$(document).ready(function() {
+    rating.create({
+        'selector': '#rating',
+        'unselectedIcon': 'fa fa-star-o red-font',
+        'selectedIcon': 'fa fa-star'
+    });
+});
+```
