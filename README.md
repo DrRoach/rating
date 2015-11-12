@@ -1,5 +1,5 @@
 # Rating
-Rating is a super simple jQuery plugin that quickly and easily lets you add a star rating input filed like below.
+Rating is a super simple jQuery plugin that quickly and easily lets you add a star rating input field like below.
 
 ![Rating image](http://i.imgur.com/WuUuXqd.png)
 
@@ -7,7 +7,7 @@ It's quick and super simple to use.
 
 Example
 ===
-This plugin needs jQuery, after that, all you need to do is supply for element selector.
+This plugin needs jQuery, after that, all you need to do is supply the element selector.
 
 ```php
 <form action="" method="post">
